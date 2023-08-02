@@ -42,19 +42,18 @@ function addOne(input){
 }
 
 function isEven(input){
-    if (typeof input === "boolean")
-        return false
+
+        return input % 2 === 0
+
 
 }
 function isEqual(input1,input2){
-    return input1 === input2;
+    return input1 == input2;
 }
 
 function isIdentical(input1,input2){
-return input1 = input2;
+return input1 === input2;
 }
-
-
 
 
 
